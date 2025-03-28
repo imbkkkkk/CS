@@ -42,8 +42,8 @@ plt.xlabel('Latitude')
 plt.ylabel('Energy Flux [W' f'$m^{-2}$]')
 plt.legend()
 plt.grid()
-plt.show()
 plt.savefig('hw2.png')
+plt.show()
 
 a = 6.371e6 
 dlat = np.deg2rad(np.gradient(lat)) 
@@ -62,5 +62,5 @@ plt.legend()
 plt.grid()
 
 plt.tight_layout()
-plt.show()
 plt.savefig('hw2_1.png')
+plt.show()
